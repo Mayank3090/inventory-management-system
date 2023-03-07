@@ -1,30 +1,68 @@
- public class Stock {
+ public class Solution{
 
-private String companyName;
-private String stockRating;
-private int price;
-private int numberOfShares;
+    public static purchase_of_items()
+    
+    {
+    
+    String item_name,supplier,payment_mode;
+    
+    }
+       
+    public static supplier{
+    
+    String supplier_name,date_of_purchase;
+    
+    }
+        public static void main(String[] args)
 
-public String getCompanyName() {
-    return companyName;
+{
+
+purchase_of_items p[10];
+
+String item_name,payment_mode;
+
+String supplier_name,date_of_purchase;
+
+Scanner s= new Scanner(System.in)
+
+for(int i=0;i<10;i++)
+
+{
+
+item_name= s.nextLine();
+
+payment_mode= s.nextLine();
+
+supplier_name= s.nextLine();
+
+date_of_purchase= s.nextLine();
+
+p[i]= new purchase_of_items<>();
+
+supplier ss = new supplier<>();
+
+ss.supplier_name = supplier_name;
+
+ss.date_of_purchase = date_of_purchase;
+
+p[i].supplier = ss;
+
+p[i].payment_mode = payment_mode;
+
+p[i].item_name = item_name;
+
 }
 
-public int getStockRating() {
-    return stockRating;
+//Generate reports of details of payment modes
+
+for(int i=0;i<9;i++)
+
+{
+
+system.out.println(p[i].payment_mode);
+
 }
 
-public String getPrice() {
-    return price;
 }
 
-public int getNumberOfShares() {
-    return numberOfShares;
-}
-
-public Stock(String companyName, String stockRating, int price, int numberOfShares) {
-    super();
-    this.companyName = companyName;
-    this.stockRating = stockRating;
-    this.price = price;
-    this.numberOfShares = numberOfShares;
 }
